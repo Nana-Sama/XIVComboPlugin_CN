@@ -9,6 +9,7 @@ namespace XIVComboPlugin
         None = 0,
 
         // DRAGOON
+        //龙骑
         [CustomComboInfo("Coerthan Torment Combo", "Replace Coerthan Torment with its combo chain", 22)]
         DragoonCoerthanTormentCombo = 1L << 0,
 
@@ -19,6 +20,7 @@ namespace XIVComboPlugin
         DragoonFullThrustCombo = 1L << 2,
 
         // DARK KNIGHT
+        //黑骑
         [CustomComboInfo("Souleater Combo", "Replace Souleater with its combo chain", 32)]
         DarkSouleaterCombo = 1L << 3,
 
@@ -26,6 +28,7 @@ namespace XIVComboPlugin
         DarkStalwartSoulCombo = 1L << 4,
 
         // PALADIN
+        //骑士
         [CustomComboInfo("Goring Blade Combo", "Replace Goring Blade with its combo chain", 19)]
         PaladinGoringBladeCombo = 1L << 5,
 
@@ -39,6 +42,7 @@ namespace XIVComboPlugin
         PaladinRequiescatCombo = 1L << 55,
 
         // WARRIOR
+        //战士
         [CustomComboInfo("Storms Path Combo", "Replace Storms Path with its combo chain", 21)]
         WarriorStormsPathCombo = 1L << 8,
 
@@ -52,6 +56,7 @@ namespace XIVComboPlugin
         WarriorIRCombo = 1L << 63,
 
         // SAMURAI
+        //武士
         [CustomComboInfo("Yukikaze Combo", "Replace Yukikaze with its combo chain", 34)]
         SamuraiYukikazeCombo = 1L << 11,
 
@@ -75,6 +80,7 @@ namespace XIVComboPlugin
 
 
         // NINJA
+        //忍者
         [CustomComboInfo("Armor Crush Combo", "Replace Armor Crush with its combo chain", 30)]
         NinjaArmorCrushCombo = 1L << 17,
 
@@ -85,6 +91,7 @@ namespace XIVComboPlugin
         NinjaHakkeMujinsatsuCombo = 1L << 19,
 
         // GUNBREAKER
+        //枪刃
         [CustomComboInfo("Solid Barrel Combo", "Replace Solid Barrel with its combo chain", 37)]
         GunbreakerSolidBarrelCombo = 1L << 20,
 
@@ -101,6 +108,7 @@ namespace XIVComboPlugin
         GunbreakerDemonSlaughterCombo = 1L << 22,
 
         // MACHINIST
+        //机工
         [CustomComboInfo("(Heated) Shot Combo", "Replace either form of Clean Shot with its combo chain", 31)]
         MachinistMainCombo = 1L << 23,
 
@@ -111,6 +119,7 @@ namespace XIVComboPlugin
         MachinistOverheatFeature = 1L << 47,
 
         // BLACK MAGE
+        //黑魔
         [CustomComboInfo("Enochian Stance Switcher", "Change Fire 4 and Blizzard 4 to the appropriate element depending on stance, as well as Flare and Freeze", 25)]
         BlackEnochianFeature = 1L << 25,
         /*
@@ -143,6 +152,7 @@ namespace XIVComboPlugin
         ScholarEnergyDrainFeature = 1L << 37,
 
         // DANCER
+        //舞者
         [CustomComboInfo("AoE GCD procs", "DNC AoE procs turn into their normal abilities when not procced", 38)]
         DancerAoeGcdFeature = 1L << 32,
 
@@ -156,6 +166,7 @@ namespace XIVComboPlugin
         DancerDevilmentCombo = 1L << 61,
 
         // WHITE MAGE
+        //白魔
         [CustomComboInfo("Solace into Misery", "Replaces Afflatus Solace with Afflatus Misery when Misery is ready to be used", 24)]
         WhiteMageSolaceMiseryFeature = 1L << 35,
 
@@ -173,6 +184,7 @@ namespace XIVComboPlugin
         // you get nothing, you lose, have a nice day etc
 
         // RED MAGE
+        //赤魔
         [CustomComboInfo("Red Mage AoE Combo", "Replaces Veraero/thunder 2 with Impact when Dualcast or Swiftcast are active", 35)]
         RedMageAoECombo = 1L << 48,
 
@@ -183,6 +195,7 @@ namespace XIVComboPlugin
         RedMageVerprocCombo = 1L << 53,
 
         // REAPER
+        //镰刀
         [CustomComboInfo("Slice Combo", "Replace Slice with its combo chain.", 39)]
         ReaperSliceCombo = 1L << 16,
 
